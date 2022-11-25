@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    padding-top:41px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: large;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+.logo{
+    margin-bottom: 10px;
+    
+    height: 40px;
+    width: 40px;
+}
+.navbar h2{
+    margin-right: 550px;
+}
+
+.navbar div:hover{
+    color: green;
+}
+
+.para1{
+    background: url('image4.jpeg');
+    height: 700px;
+    filter: brightness(85%);
+    display: flex;
+}
+
+.para1 .pbox1{
+    margin-left: 200px;
+    margin-top: 0px;
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 690px;
+    width: 350px;
+    background-color: white;
+    
+}
+
+.para1 .pimg1{
+    margin-left: 15px;
+    margin-top: 100px;
+    height: 590px;
+    width: 320px;
+}
+.para1 h1{
+    font-size: 70px;
+    color:black;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.getspotify{
+    margin-top: 350px;
+    margin-left: -620px;
+    height: 50px;
+    width: 250px;
+    color: black;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 20%;
+}
+
+.getspotify:hover{
+    background-color: green;
+}
+
+.para2 h2{
+    text-align: center;
+    font-size: 50px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+}
+.para3{
+    height: 500px;
+    background-color: blueviolet;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.para3 p{
+    padding-top: 200px;
+}
+
+.para4{
+    height: 500px;
+    background-color: white;
+    
+}
+.para4 div{
+    padding-left: 400px;
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.para5{
+    height: 500px;
+    background-color: blueviolet;
+    font-size: 70px;
+    text-align: center;
+    /* margin-top: 70px; */
+}
+
+.para5 p{
+    padding-top: 200px;
+}
+
+.grids{
+    margin: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
